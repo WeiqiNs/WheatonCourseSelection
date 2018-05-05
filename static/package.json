@@ -8,9 +8,9 @@
     "popper.js": "^1.14.0",
     "sweetalert2": "^7.15.1",
     "fullcalendar": "^3.9.0",
-    "font-awesome": "^4.7.0",
     "jquery-confirm": "^3.3.2",
-    "bootstrap-select": "^1.12.4"
+    "bootstrap-select": "^1.12.4",
+    "@fortawesome/fontawesome": "^1.1.5",
   },
   "author": "Weiqi",
   "license": "ISC"
