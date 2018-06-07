@@ -35,10 +35,17 @@ function checkField() {
     // TODO: If possible make the alert box bigger with larger font.
     // Check if subject was empty, if so alert with proper message.
     if ($("#subjects").val().length === 0) {
-        swal({
-            type: 'warning',
-            title: 'Please select subject(s)!',
-            confirmButtonText: 'Got it!'
+        $.alert({
+            icon: 'fas fa-exclamation-triangle',
+            title: 'Please select subject(s).',
+            theme: 'supervan',
+            content: '',
+            buttons: {
+                confirm: {
+                    text: "Got it!",
+                    btnClass: 'btn-blue'
+                }
+            }
         });
         return false;
     }
