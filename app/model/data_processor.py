@@ -4,9 +4,9 @@
 import pandas as pd
 from bs4 import BeautifulSoup
 from typing import List, Optional
-from course_selection_app.model.constants import BASE_URL, SKIP_BEGINNING, \
+from app.model.constants import BASE_URL, SKIP_BEGINNING, \
     TIME_FILTER, TO_CALENDAR, SHOW_DETAIL
-from course_selection_app.model.data_fetcher import fetch_semesters, \
+from app.model.data_fetcher import fetch_semesters, \
     fetch_subjects, fetch_web_content
 
 

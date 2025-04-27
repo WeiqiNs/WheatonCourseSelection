@@ -3,7 +3,7 @@
 
 import pandas as pd
 import mechanicalsoup
-from course_selection_app.model.constants import URL, SEMESTER_NUMBER
+from app.model.constants import URL, SEMESTER_NUMBER
 
 
 def fetch_web_content(subject: str, semester: str) -> str:

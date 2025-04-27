@@ -2,7 +2,7 @@
 
 from flask import Flask, render_template, request
 
-from course_selection_app.model.data_reader import read_data, read_areas, \
+from app.model.data_reader import read_data, read_areas, \
     read_subjects, read_semesters, read_divisions, read_foundations, \
     read_current_semester
 
