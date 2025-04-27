@@ -36,11 +36,12 @@ jobs:
         working-directory: app/static
         run: npm install
 
-      - name: Test with pytest
+      - name: Check Python styles
         run: |
-          pytest
+          flake8
+          pydocstyle
 
-      - name: Test with ESLint
+      - name: Check JS styles
         working-directory: app/static
         run: |
           ./node_modules/.bin/eslint ./js/
